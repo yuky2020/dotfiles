@@ -1,0 +1,6 @@
+# Copy to ~/.config/sunshine/sunshine.conf and adjust.
+# output_name is rewritten by sunshine-start.sh at every login.
+output_name = HEADLESS-1
+
+# Run the connect/disconnect scripts for every client session.
+global_prep_cmd = [{"do":"sunshine-connect.sh","undo":"sunshine-disconnect.sh"}]

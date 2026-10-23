@@ -1,0 +1,31 @@
+# Core
+hyprland
+xdg-desktop-portal-hyprland
+hyprpolkitagent
+hyprshutdown
+noctalia
+noctalia-qs
+
+# Apps referenced by keybinds / Noctalia
+alacritty
+ghostty
+thunar
+google-chrome
+
+# Utilities used by keybinds
+grimblast-git
+brightnessctl
+playerctl
+wireplumber
+
+# Noctalia arch-updater plugin
+pacman-contrib
+flatpak
+
+# Look and feel
+oxygen-cursors
+ttf-jetbrains-mono
+
+# KWallet unlock at login (autostart.lua)
+kwallet
+kwallet-pam

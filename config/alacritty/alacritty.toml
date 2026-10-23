@@ -1,0 +1,15 @@
+[general]
+import = ["~/.config/alacritty/themes/noctalia.toml"]
+
+[window]
+opacity = 0.8
+blur = true
+
+[font]
+normal = {family = "JetBrains Mono", style = "Regular"}
+offset = {y = -1}
+
+[[keyboard.bindings]]
+key = "Return"
+mods = "Shift"
+chars = "\u001B\r"

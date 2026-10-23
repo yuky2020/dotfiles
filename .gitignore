@@ -1,0 +1,4 @@
+# Contains Home Assistant URL + long-lived token
+config/noctalia/plugins/hassio/settings.json
+*.bak
+*.log

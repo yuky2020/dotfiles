@@ -1,0 +1,10 @@
+# Aligned with ~/.config/alacritty/alacritty.toml
+theme = noctalia
+
+background-opacity = 0.8
+background-blur = true
+
+font-family = JetBrains Mono
+adjust-cell-height = -1
+
+keybind = shift+enter=text:\x1b\r

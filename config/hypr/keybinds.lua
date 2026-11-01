@@ -2,7 +2,7 @@
 ---- KEYBINDINGS ----
 ---------------------
 
-local terminal = "alacritty"
+local terminal = "ghostty"
 local browser = "google-chrome-stable"
 local fileManager = "thunar"
 -- NOCTALIA --

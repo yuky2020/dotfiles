@@ -31,7 +31,7 @@ hl.bind(mainMod .. " + ESCAPE", hl.dsp.exec_cmd(sessionMenu))
 hl.bind(mainMod .. " + SHIFT + L", hl.dsp.exec_cmd(sessionMenu))
 
 --mode management Work in progress
-hl.bind(mainMod .. " + SHIFT + F", hl.dsp.window.fullscreen("maximized", "toggle"))
+hl.bind(mainMod .. " + SHIFT + F", hl.dsp.window.fullscreen({ mode = "fullscreen", action = "toggle" }))
 hl.bind(mainMod .. " + SHIFT + D", hl.dsp.window.fullscreen({ mode = "maximized", action = "toggle" })) --maximize
 
 -- Screenshot Taking

@@ -77,7 +77,8 @@ Because the files are symlinks, every change made by Noctalia or by hand lands i
 | `SUPER + F` | File manager (thunar) |
 | `SUPER + SHIFT + Q` | Close window |
 | `SUPER + V` | Toggle floating |
-| `SUPER + SHIFT + F` / `SHIFT + D` | Maximize |
+| `SUPER + SHIFT + F` | Fullscreen |
+| `SUPER + SHIFT + D` | Maximize |
 | `SUPER + SHIFT + J` | Cycle active workspace layout: master, scrolling, dwindle |
 | `SUPER + J` | Toggle split direction (dwindle) |
 | `SUPER + L` | Lock screen |

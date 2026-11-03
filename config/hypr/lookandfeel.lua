@@ -130,3 +130,16 @@ hl.config({
         disable_splash_rendering = true,
     },
 })
+
+------------------
+---- XWAYLAND ----
+------------------
+
+-- Su DP-1 (scala 1.33) i giochi Proton via XWayland sfarfallavano:
+-- con zero scaling le finestre XWayland usano la risoluzione nativa.
+-- Richiede il riavvio di Hyprland per aggiornare la risoluzione vista dai giochi.
+hl.config({
+    xwayland = {
+        force_zero_scaling = true,
+    },
+})
